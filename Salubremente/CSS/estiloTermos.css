@@ -1,0 +1,144 @@
+
+.menu {
+    
+    background-color: #6A5ACD;
+    position: fixed;
+    width: 40vw;
+    margin-left: 25em;
+    top: 0;
+    z-index: 1;
+    height: 50px;
+    border-radius: 0em 0em 2em 2em;
+  }
+
+.menu li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+.menu a {
+    color: #f5f5f5;
+    font-size: 35px;
+    line-height: 0.5em;
+    padding-right: 0.9em;
+  }
+
+  section p {
+    font-size: 23px;
+    margin-top: 1em;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: black;
+  }
+
+div p {
+      text-align: justify;
+      margin-left: 370px;
+      display: flex;
+      font-family: 'Ubuntu', sans-serif;
+      margin-bottom: 0.5em;
+      margin-top: -0.2em;
+      border: 5px;
+  }
+/*pergunta 1*/
+.hrTop1{
+    margin-top: 8em;
+    width: 55%;
+    height: 2px;
+    background-color: #DCDCDC;
+    border-radius: 3em;
+    border: none;
+    align-items: center;
+  }
+
+ .hrDown1{
+    width: 40%;
+    height: 2px;
+    background-color: #DCDCDC;
+    border-radius: 3em;
+    border: none;
+  }
+
+  .inputRadio{
+    margin-bottom: 1.5em;
+    color: black;
+    font-weight: bold;}
+    
+  .form{
+    margin-right: 700px;
+    display: flex;
+  }
+
+  .inputSim1{
+      margin-left: 500px;
+      margin-top: 1em;
+      font-family: 'Ubuntu', sans-serif;
+  }
+
+  .inputNão1{
+      margin-left: 250px;
+      margin-top: -1.2em; 
+      font-family: 'Ubuntu', sans-serif;
+  }
+
+  /*pergunta 2 e pergunta 3*/
+  .p2,.p3{
+    margin-left: -30em;
+  }
+.hrTop2,.hrTop3{
+  margin-top: 4em;
+  width: 55%;
+  height: 2px;
+  background-color: #DCDCDC;
+  border-radius: 3em;
+  border: none;
+}
+div p {
+  text-align: center;
+  margin-left: 425px;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border: 5px;}
+
+.hrDown2,.hrDown3 {
+  width: 40%;
+  height: 2px;
+  background-color: #DCDCDC;
+  border-radius: 3em;
+  border: none;
+}
+
+.inputRadio{
+  margin-bottom: 1.5em;
+  color: black;
+  font-weight: bold;
+}
+form{
+  margin-right: 700px;
+  display: flex;
+}
+
+.inputSim2,.inputSim3{
+    margin-left: 7px;
+    margin-top: 1em;
+}
+
+.inputNão2{
+    margin-left: 250px;
+    margin-top: -2.6em; 
+}
+
+.inputNão3{
+  margin-left: 250px;
+  margin-top: -1.2em; 
+}
+
+
+
+
+
+

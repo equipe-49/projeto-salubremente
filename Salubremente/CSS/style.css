@@ -92,6 +92,18 @@ input {
   color: #6A5ACD;
 }
 
+@media screen and (max-width:900px) and (min-width: 100px){
+   
+  header p {
+     text-align: center;
+     margin: 0 auto;
+     margin-top: 3em;
+     flex-direction: column;
+     margin-left: 0.6em;
+     justify-content: center;
+   }
+   
+}
 
 
 
