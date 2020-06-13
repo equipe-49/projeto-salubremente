@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content="width=device-width, inicial-scale=1.0">
+	<title> Cadastro</title>
+	<!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Materialize CSS -->
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/cadastro1.css">
+  <link rel="shortcut icon" href="../imgs/favicon.ico" />
+</head>
+<body class="row">
+	<h3 class=" row col s4">Dados do cadastro</h3>
+	
+	<header class="col s8">
+        <div>
+            <h5>Dados da clínica</h5>
+        </div>
+    </header>
+   
+        <div class="col s8">
+            <h5>Login</h5>
+        </div>
+      
+       <div class="row col s4">
+       		<input type="email" id="email" name="email" placeholder="Email" class="validate">
+       		<input id="senha" type="password" class="validate" placeholder="senha">
+       		<input id="senha" type="password" class="validate" placeholder="confirmar senha">
+      
+      </div>
+      <div class="col s8">
+      	<h5>Endereço</h5>
+      </div>
+      
+<div class=" row col s4">
+    
+    <form  class="col s12"placeholder="CEP" name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+           onblur="pesquisacep(this.value);" /></label><br />
+      
+      <div class="row">
+        
+        <div class="input-field col s6">
+          
+          <input placeholder="Cep" id="cep" type="text" class="validate">
+        
+        </div>
+        
+        <div class="input-field col s6">
+        	
+        	<input placeholder="UF" type="text" name="Uf">
+         
+         </div>
+      
+      </div>
+
+<div>
+	
+	<input placeholder="Cidade" type="text" name="Cid">
+  <input placeholder="Bairro" type="text" name="Bairro">
+  <input placeholder="Logradouro" type="text" name="Log">
+  <input placeholder="N°" type="text" name="numero">
+  <input placeholder="Complemento" type="text" name="Comp">
+</div>
+
+	<div class="row">
+  <button class=" waves-effect waves-light white indigo-text center-align" type="submit" name="action" >Avançar
+    <i class="material-icons right">send</i>
+  </button>
+</div>
+<!-- Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Materialize JS -->
+	<script src="js/materialize.js"></script>
+</body>
+</html>
