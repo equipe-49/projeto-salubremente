@@ -1,0 +1,71 @@
+section#titulo {
+  background-color: #ffffff;
+  position: relative;
+  max-width: 1300px;
+  height: 80px;
+  min-width:350px;
+  top: 0em;
+  z-index: 1;
+  border-radius: 0em 0em 2em 2em;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+section#titulo h1{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'roboto', sans-serif;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+body {
+
+  background-color:#6A5ACD ;
+  
+  }
+  
+  .page-footer{
+      background-color: rgb(24, 9, 39);
+  }
+  
+  
+  #menu div{
+      height: 65px;
+      background-color: darkslateblue;
+      padding-top:15 px ;
+     
+  #menu ul li{
+      font-weight: 500;
+  }
+  
+   .calendario{
+    margin-top: 40px;
+ }
+h2{
+ font-size: 50px;
+ color: white;
+ font-family: Roboto, sans-serif;
+ font-weight: 300;
+}
+.card img{
+ height: 300px;
+ width: 300px;
+ object-fit: cover;
+}
+#mapa {
+ position: relative;
+ padding-top: 10px;
+     height: 300px;
+     overflow: hidden;
+}
+
+#mapa iframe{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100% !important;
+ height: 300px !important;
+}
+

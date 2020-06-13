@@ -1,7 +1,7 @@
 section#titulo {
     background-color: #ffffff;
     position: relative;
-    width: 20vw;
+    max-width: 1300px;
     height: 80px;
     min-width:350px;
     top: 0em;
@@ -11,6 +11,10 @@ section#titulo {
     margin-right: auto;
     
 }
+
+
+
+
 section#logar{
     background-color:rgb(255, 255, 255);
     margin-top: 8em;
@@ -30,10 +34,26 @@ section#titulo h1{
     font-size: 50px;
     font-family: 'roboto', sans-serif;
     font-weight: 500;
+    padding-top: 10px;
 }
 
 body {
 
 background-color:#6A5ACD ;
 
+}
+
+.page-footer{
+    background-color: rgb(24, 9, 39);
+}
+
+
+#menu div{
+    height: 65px;
+    background-color: darkslateblue;
+    padding-top:15 px ;
+   
+#menu ul li{
+    font-weight: 500;
+    
 }
