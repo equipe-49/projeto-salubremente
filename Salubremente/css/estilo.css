@@ -1,0 +1,652 @@
+body {
+  margin: 0em;
+  background-color: #6A5ACD;
+}
+
+.menu {
+    
+    background-color: #F5F5F5;
+    position: fixed;
+    min-width: 40%;
+    margin-left: 25em;
+    top: 0;
+    z-index: 1;
+    height: 50px;
+    border-radius: 0em 0em 2em 2em;
+  }
+
+.menu li {
+    list-style: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.menu a {
+    color: #6A5ACD;
+    font-size: 35px;
+    line-height: 0.5em;
+    padding-right: 0.9em;
+  }
+
+section p {
+    font-size: 25px;
+    margin-top: 5em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #F5F5F5;
+  }
+
+  div p {
+      text-align: justify;
+      margin-left: 370px;
+      display: flex;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 0.5em;
+      margin-top: -0.2em;
+      border: 5px;
+  }
+
+  hr {
+    width: 58%;
+    height: 5px;
+    background-color: #F5F5F5;
+    border-radius: 3em;
+    border: none;
+  }
+
+  input{
+    margin-left: 450px;
+    margin-bottom: 1.5em;
+    border: 1.5px solid;
+    padding: 5px;
+    border-radius: 2em;
+    color: #F5F5F5;
+    display: table-cell;
+    float: left;
+  }
+  .inputUf,.inputBairro{
+    float: right;
+    margin-right: 28em;
+    margin-top: -4em;
+  }
+
+  .inputRadio {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1.8em;
+    color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    transition: text-shadow 1s;
+  }
+
+  .inputR{
+    float: left;
+  }
+
+  .inputR2 {
+    float: left;
+    margin-left: -23em;
+    margin-top: 0.3em;
+  }
+
+  .inputR2 p{
+    font-size: medium;
+    padding-right: 5em;
+  }
+
+  .inputRadio:hover,
+  .inputRadio:active{
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgba(245, 245, 220, 1.5);
+  }
+
+  button {
+    background-color: #F5F5F5;
+    color: #6A5ACD;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-bottom: 5em;
+    margin-top: 1em;
+    border-radius: 2em;
+    border: none;
+  }
+
+.buttonAv {
+    text-align: center;
+  }
+
+img {
+  align-items: center;
+  margin-left: 17em;
+  margin-top: 6em;
+  margin-right: 1em;
+  width: 60%;
+  position: relative;
+  display: table-cell;
+}
+
+@media (min-width:319px) and (max-width:348px){
+  .menu{
+    margin-left: 6em;
+  }
+
+  section p{
+    margin-right: -5em;
+  }
+
+  hr{
+    margin-left: 8em;
+    width: 65%;
+  }
+
+  div p{
+    margin-left: 4em;
+  }
+
+  .inputUf,.inputBairro{
+    margin-top: 1em;
+    margin-right: 4px;
+    
+  }
+
+  .inputUf{
+    margin-bottom: 1.5em;
+  }
+
+  input{
+    margin-left: 10em;
+    margin-bottom: 1em;
+  }
+
+  .inputRadio{
+    margin-left: 20em;
+  }
+
+  .inputR{
+    margin-right: 5px;
+    margin-left: -2em;
+    margin-top: 6.5em;
+  }
+
+  .inputR2{
+    margin-right: 1em;
+  }
+
+  .inputR2 p{
+    margin-left: 13em;
+    margin-top: 5em;
+  }
+
+  img{
+    width: 90%;
+    margin-left: 5.3em;
+    padding-top: 3em;
+  }
+
+  button{
+    margin-left: 8.5em;
+    margin-top: 3em;
+  }
+}
+
+@media (min-width:349px) and (max-width:360px){
+  .menu{
+    margin-left: 6em;
+  }
+
+  section p{
+    margin-right: -5em;
+  }
+
+  hr{
+    margin-left: 8em;
+    width: 65%;
+  }
+
+  div p{
+    margin-left: 4em;
+  }
+
+  .inputUf,.inputBairro{
+    margin-top: 1em;
+    margin-right: 18px;
+    
+  }
+
+  .inputUf{
+    margin-bottom: 1.5em;
+  }
+
+  input{
+    margin-left: 12em;
+    margin-bottom: 1em;
+  }
+
+  .inputRadio{
+    margin-left: 20em;
+  }
+
+  .inputR{
+    margin-right: 5px;
+    margin-left: -2em;
+    margin-top: 6.5em;
+  }
+
+  .inputR2{
+    margin-right: 1em;
+  }
+
+  .inputR2 p{
+    margin-left: 13em;
+    margin-top: 5em;
+  }
+
+  img{
+    width: 110%;
+    margin-left: 2.8em;
+    padding-top: 3em;
+  }
+
+  button{
+    margin-left: 8.5em;
+    margin-top: 3em;
+  }
+}
+
+
+@media (min-width:361px) and (max-width:375px){
+   .menu{
+     margin-left: 7.5em;
+   }
+
+   section p{
+     margin-right: -5em;
+   }
+
+   hr{
+     margin-left: 8em;
+     width: 65%;
+   }
+
+   div p{
+     margin-left: 4em;
+   }
+
+   .inputUf,.inputBairro{
+     margin-top: 1em;
+     margin-right: 35px;
+     
+   }
+
+   .inputUf{
+     margin-bottom: 1.5em;
+   }
+
+   input{
+     margin-left: 12em;
+     margin-bottom: 1em;
+   }
+
+   .inputRadio{
+     margin-left: 20em;
+   }
+
+   .inputR{
+     margin-right: 5px;
+     margin-left: 0.1em;
+   }
+
+   .inputR2{
+     margin-right: 1em;
+   }
+
+   .inputR2 p{
+     margin-left: 13.5em;
+   }
+
+   img{
+     width: 90%;
+     margin-left: 5.3em;
+     padding-top: 3em;
+   }
+
+   button{
+     margin-left: 8.5em;
+     margin-top: 3em;
+   }
+}
+
+@media (min-width:376px) and (max-width:411px){
+  .menu{
+    margin-left: 5em;
+  }
+
+  hr{
+    width: 65%;
+  }
+
+  div p{
+    margin-left: 5em;
+  }
+
+  .inputUf,.inputBairro{
+    margin-top: 1em;
+    margin-right: 6.8em;
+    
+  }
+
+  .inputUf{
+    margin-bottom: 1.5em;
+  }
+
+  input{
+    margin-left: 9em;
+    margin-bottom: 1em;
+  }
+
+  .inputRadio{
+    margin-left: 20em;
+  }
+
+  .inputR{
+    margin-left: -4em;
+    margin-top: 6em;
+  }
+
+  .inputR2{
+    margin-right: 1em;
+  }
+
+  .inputR2 p{
+    margin-left: 11.5em;
+  }
+
+  img{
+    width: 80%;
+    margin-left: 2.5em;
+    padding-top: 3em;
+  }
+
+  button{
+    margin-top: 3em;
+  }
+}
+
+@media (min-width:412px) and (max-width:414px){
+  .menu{
+    margin-left: 5em;
+  }
+
+  hr{
+    width: 65%;
+  }
+
+  div p{
+    margin-left: 5em;
+  }
+
+  .inputUf,.inputBairro{
+    margin-top: 1em;
+    margin-right: 7em;
+    
+  }
+
+  .inputUf{
+    margin-bottom: 1.5em;
+  }
+
+  input{
+    margin-left: 9em;
+    margin-bottom: 1em;
+  }
+
+  .inputRadio{
+    margin-left: 20em;
+  }
+
+  .inputR{
+    margin-left: -4em;
+    margin-top: 6em;
+  }
+
+  .inputR2{
+    margin-right: 1em;
+  }
+
+  .inputR2 p{
+    margin-left: 11.5em;
+  }
+
+  img{
+    width: 80%;
+    margin-left: 2.5em;
+    padding-top: 3em;
+  }
+
+  button{
+    margin-top: 3em;
+  }
+}
+
+
+@media (min-width:415px) and (max-width:426px){
+  .menu{
+    margin-left: 5.5em;
+  }
+
+  section p{
+    margin-left: auto;
+  }
+
+  hr{
+    margin-left: 5.1em;
+    width: 65%;
+  }
+
+  div p{
+    margin-left: 3em;
+  }
+
+  .inputUf,.inputBairro{
+    margin-top: 1em;
+    margin-right: 115px;
+    
+  }
+
+  .inputUf{
+    margin-bottom: 1.5em;
+  }
+
+  input{
+    margin-left: 9.5em;
+    margin-bottom: 1em;
+  }
+
+  .inputRadio{
+    margin-left: 20em;
+  }
+
+  .inputR{
+    margin-right: 10px;
+    margin-left: -1.7em;
+  }
+
+  .inputR2{
+    margin-right: -2em;
+  }
+
+  .inputR2 p{
+    margin-left: 13.5em;
+  }
+
+  img{
+    width: 80%;
+    margin-left: 2.5em;
+    padding-top: 3em;
+  }
+
+  button{
+    margin-top: 3em;
+  }
+}
+
+
+@media (min-width:427px) and (max-width:768px){
+  .menu{
+    margin-left: 15em;
+  }
+
+  div p{
+    margin-left: 5em;
+  }
+
+  .inputRadio{
+    margin-left: 20em;
+  }
+
+  .inputR{
+    margin-right: 10px;
+    margin-left: -1.7em;
+  }
+
+  .inputR2{
+    margin-right: -2em;
+  }
+
+  .inputR2 p{
+    margin-left: 13.5em;
+  }
+
+  img{
+    width: 80%;
+    margin-left: 5em;
+  }
+
+  button{
+    margin-top: 3em;
+  }
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+  .menu{
+    margin-left: 20em;
+  }
+
+  div p{
+    margin-left: 8.5em;
+  }
+
+  input{
+   margin-right: 10em;
+   margin-left: 20em;
+  }
+
+  .inputRadio{
+    margin-left: 20em;
+  }
+
+  .inputUf,.inputBairro{
+    float: right;
+    margin-right: 11em;
+    margin-top: -4em;
+  }
+
+  .inputR{
+    margin-right: 10px;
+    margin-left: -4em;
+  }
+
+  .inputR2{
+    margin-right: -2em;
+  }
+
+  .inputR2 p{
+    margin-left: 20.5em;
+  }
+
+  img{
+    width: 80%;
+    margin-left: 6.5em;
+  }
+
+  button{
+    margin-top: 3em;
+  }
+}
+
+
+@media (min-width:1500px) and (max-width:2560px){
+  .menu{
+    margin-left: 50em;
+  }
+
+  .menu a{
+    font-size: 2.5em;
+  }
+
+  section p{
+    margin-left: 3em;
+    font-size: 35px;
+  }
+
+  div p{
+    margin-left: 25em;
+    margin-top: 0.5em;
+  }
+
+  hr{
+    width: 45%;
+    margin-left: 47.5em;
+  }
+
+  input{
+   margin-right: 55em;
+   margin-left: 75em;
+  }
+
+  .inputRadio{
+    margin-left: 20em;
+  }
+
+  .inputUf,.inputBairro{
+    float: right;
+    margin-right: 11em;
+    margin-top: -4em;
+  }
+
+  .inputR{
+    margin-right: 10px;
+    margin-left: 63em;
+    padding: 7px;
+  }
+
+  .inputR2{
+    margin-right: -2em;
+  }
+
+  .inputR2 p{
+    margin-left: 16em;
+    margin-top: -0.3em;
+    font-size: 14px
+  }
+
+  img{
+    width: 55%;
+    margin-left: 40em;
+  }
+
+  button{
+    margin-top: 3em;
+    margin-left: 5em;
+    padding: 20px 45px;
+    font-size: 20px;
+  }
+
+  
+}
+
+
+
